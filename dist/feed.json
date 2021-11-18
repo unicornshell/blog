@@ -1,0 +1,102 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "vuepress-theme-blog-material",
+    "home_page_url": "https://vuepress-theme-blog-material.lyh543.cn/",
+    "feed_url": "https://vuepress-theme-blog-material.lyh543.cn/feed.json",
+    "description": "正在开发中的 Material Design 风格 Vuepress",
+    "items": [
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/front-end/moment-js.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/front-end/moment-js.html",
+            "title": "moment.js -- JavaScript 时间处理神器",
+            "summary": "JavaScript 自带 [Date] 类，也带了非常多的工具，但是可能真要用的时候，却发现这个功能没有、那个功能也没有。于是就有了 moment.js（[英文官网]|[中文网]）。相较 Date 类，moment 对格式化输出、多语言、多时区的支持更加友好，还有很多小工具，十分安利。\n\n[Date]:https://developer.mozilla.org/zh-CN/docs/Web/ ...",
+            "date_modified": "2021-05-07T16:33:21.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/front-end/vue-debug.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/front-end/vue-debug.html",
+            "title": "Vue 的调试方法",
+            "summary": "写算法、写后端开发的时候，在 IDE 打断点、条件断点、检测变量用的飞起，但是在 JS 以及 Vue 的前端开发中，这一套就有一些变化了。一是因为调试工具从各家 IDE 变为了浏览器，二是因为 Vue 的每个组件的变量不能在浏览器中直接访问，三是因为 Vue 代码需要转化为原生 JS 执行，所以看报错总会有一堆 vue.runtime.esm.js 之类的、来自 Vue 框架本身代码的报错，而 ...",
+            "date_modified": "2021-04-22T22:11:39.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/front-end/vue-tips.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/front-end/vue-tips.html",
+            "title": "Vue 学习笔记",
+            "summary": "Vue.js 是一个用于创建用户界面的开源 JavaScript 框架，也是一个创建单页应用的 Web 应用框架。目前正式版迭代到了 v2。值得一提的是，Vue 的作者是国人尤雨溪，最大的好处就是文档的中文支持非常快，目前还在 v3.x-beta 的 ...",
+            "date_modified": "2021-02-01T16:29:59.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/empty-markdown-demo.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/empty-markdown-demo.html",
+            "title": "empty-markdown-demo",
+            "summary": "...",
+            "date_modified": "2021-11-18T07:22:34.220Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-code-demo.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-code-demo.html",
+            "title": "Markdown Code Demo",
+            "summary": "Lambda functions in Python are like lambda x: x+1.\n\nThe following Lambda functions and simple functions are the same:\n\ndef add1(x):\n    return x+1\n\nadd2 = lambda x: x+2\n\nadd1(5)     # 6\nadd2(5 ...",
+            "date_modified": "2021-07-31T21:23:36.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-demo-2.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-demo-2.html",
+            "title": "Markdown 效果演示",
+            "summary": "h3\n\nh4\n\nh5\n\n没有 h6 哈哈哈哈哈。\n\nvery very very very very very very very long title\n\n图片\n\n相对路径图片\n\n绝对路径图片\n\n链接\n\n[相对路径链接](../../images/ ...",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg",
+            "date_modified": "2021-07-07T21:23:36.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-demo.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-demo.html",
+            "title": "Headings",
+            "summary": "This a test of all markdown possibilities:\n\nHeadings\n\nh1 Head ...",
+            "image": "https://vuepress-theme-blog-material.lyh543.cn/theme/appbar_background.png",
+            "date_modified": "2021-11-18T07:22:34.221Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-with-so-many-tags.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/markdown/markdown-with-so-many-tags.html",
+            "title": "Markdown with so many tags",
+            "date_modified": "2020-12-31T16:00:00.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/tips-for-vuepress-theme.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/tips-for-vuepress-theme.html",
+            "title": "tips for developing vuepress theme",
+            "summary": "There are 4 titles in vuepress:\n\n$page.frontmatter.title: the title info in frontmatter on top of every markdown page.\n$page.title: real title of every page.\n$site.title: title of s ...",
+            "date_modified": "2021-08-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog-vuetify.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog-vuetify.html",
+            "title": "VuePress Theme Blog Material",
+            "summary": "[![](https://img.shields.io/npm/v/vuepress-theme-blog ...",
+            "image": "https://img.shields.io/npm/l/vuepress-theme-blog-material.svg",
+            "date_modified": "2021-09-02T08:17:00.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog/frontmatter-in-vuepress.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog/frontmatter-in-vuepress.html",
+            "title": "frontmatter in vuepress 1",
+            "summary": "Any markdown file that contains a YAML front matter block will be processed by gray-matter. The front matter must be the first thing in the markdown fil ...",
+            "date_modified": "2018-11-06T16:00:00.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog/markdown-slot.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog/markdown-slot.html",
+            "title": "Markdown Slot 1",
+            "summary": "VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.\n\n",
+            "date_modified": "2019-02-25T16:00:00.000Z"
+        },
+        {
+            "id": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog/writing-a-vuepress-theme.html",
+            "url": "https://vuepress-theme-blog-material.lyh543.cn/posts/vuepress-theme-blog/writing-a-vuepress-theme.html",
+            "title": "Writing a vuepress theme 1",
+            "summary": "To write a theme, create a .vuepress/theme directory in your docs root, and then create a Layout.vue file:\n\n.\n└─ .vuepress\n   └─ theme\n       └─ Layout.vue\n\nFrom there it's the same as d ...",
+            "date_modified": "2019-05-05T16:00:00.000Z"
+        }
+    ]
+}
